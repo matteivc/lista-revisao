@@ -1,3 +1,7 @@
+/*
+ * Printa o maior de 3 entradas.
+ *
+ */
 #include <stdio.h>
 
 int mais(int valor1,int valor2,int valor3){
