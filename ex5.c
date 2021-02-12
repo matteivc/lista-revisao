@@ -21,8 +21,9 @@ int main (void) {
         }
         vetor[i]= n;
     }
-    printf("Quantidade de negativos: %d \n", qtdnegativo);
-    printf("Quantidade de zeros: %d \n", qtdzeros);
-    printf("Quantidade de positivos: %d \n", qtdpositivo);
+
+    printf("Quantidade de negativos: %d / %f2 %%  \n", qtdnegativo, (float)qtdnegativo/5*100);
+    printf("Quantidade de zeros: %d / %f2 %%  \n", qtdzeros, (float)qtdzeros/5*100);
+    printf("Quantidade de positivos: %d / %f2 %%  \n", qtdpositivo, (float)qtdpositivo/5*100);
     return 0;
 }
